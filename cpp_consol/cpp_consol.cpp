@@ -8,6 +8,7 @@
 using namespace std;
 
 void f1();
+void f2();
 
 void foo()
 {
@@ -40,6 +41,7 @@ int main()
 
 
 	f1();
+	f2();
 
 
     return 0;
@@ -48,4 +50,9 @@ int main()
 void f1()
 {
 	cout << "f1 - start"<<"\n";
+}
+
+void f2()
+{
+	cout << "f2 - start" << "\n";
 }
