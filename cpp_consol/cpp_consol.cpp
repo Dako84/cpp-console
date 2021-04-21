@@ -7,6 +7,8 @@
 
 using namespace std;
 
+void f1();
+
 void foo()
 {
 	for (int i = 0; i < 100; i++)
@@ -37,6 +39,13 @@ int main()
 	sec.join();
 
 
+	f1();
+
+
     return 0;
 }
 
+void f1()
+{
+	cout << "f1 - start"<<"\n";
+}
