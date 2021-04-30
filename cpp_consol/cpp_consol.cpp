@@ -23,6 +23,7 @@ void foo2()
 	for (int i = 0; i < 100; i++)
 	{
 		cout << "b = " << i << "\n";
+		55 ttt
 	}
 }
 
