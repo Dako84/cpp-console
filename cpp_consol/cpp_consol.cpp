@@ -24,6 +24,7 @@ void foo2()
 	{
 		cout << "b = " << i << "\n";
 		//55 ttt ll;
+		//new
 	}
 }
 
